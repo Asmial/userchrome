@@ -1,0 +1,4 @@
+/* close button */
+tab.tabbrowser-tab > stack:nth-child(1) > hbox:nth-child(3) > image:nth-child(8) {
+	display: none !important;;
+} 
