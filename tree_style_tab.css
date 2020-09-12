@@ -1,0 +1,57 @@
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar>.toolbar-items {
+    opacity: 0;
+    pointer-events: none;
+    width: 0px !important;
+}
+
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+    visibility: collapse !important;
+}
+
+:root {
+    --tabs-navbar-shadow-size: 0px !important;
+}
+
+/* Tab bar */
+#navigator-toolbox {
+    border: 0px !important;
+}
+
+/* Nav bar*/
+#nav-bar {
+    background: transparent !important;
+    margin-top: -30px !important;
+    padding-top: 5px !important;
+    margin-bottom: 20px !important;
+    margin-left: 40px;
+    margin-right: 15rem !important;
+    /*height: 32px !important;*/
+    min-width: 219px !important;
+}
+
+.titlebar-spacer {
+    display: none;
+}
+
+#sidebar-close {
+    display: none;
+}
+
+/* URL bar */
+#urlbar-container {
+    min-width: 50px !important;
+}
+
+#urlbar {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#titlebar {
+    height: 40px !important;
+}
+
+#PersonalToolbar {
+    background-color: rgb(12, 12, 13) !important;
+}
