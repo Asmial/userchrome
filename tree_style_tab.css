@@ -13,45 +13,54 @@
 }
 
 /* Tab bar */
-#navigator-toolbox {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #navigator-toolbox {
     border: 0px !important;
 }
 
 /* Nav bar*/
-#nav-bar {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #nav-bar {
     background: transparent !important;
     margin-top: -30px !important;
-    padding-top: 5px !important;
-    margin-bottom: 20px !important;
+    /*padding-top: 5px !important;*/
+    margin-bottom: 5px !important;
     margin-left: 40px;
-    margin-right: 15rem !important;
+    margin-right: 16rem !important;
     /*height: 32px !important;*/
     min-width: 219px !important;
 }
 
-.titlebar-spacer {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) .titlebar-spacer {
     display: none;
 }
 
-#sidebar-close {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #sidebar-close {
     display: none;
 }
 
 /* URL bar */
-#urlbar-container {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #urlbar-container {
     min-width: 50px !important;
 }
 
-#urlbar {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #urlbar {
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
 }
 
-#titlebar {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #titlebar {
     height: 40px !important;
 }
 
-#PersonalToolbar {
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #PersonalToolbar {
     background-color: rgb(12, 12, 13) !important;
+}
+
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #PanelUI-button {
+    border-inline-start: 0 !important;
+}
+
+#sidebar {
+  min-width: 100px !important;
+  max-width: none !important;
 }
