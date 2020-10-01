@@ -23,14 +23,15 @@
     margin-top: -30px !important;
     /*padding-top: 5px !important;*/
     margin-bottom: 5px !important;
-    margin-left: 40px;
-    margin-right: 16rem !important;
+    /*margin-left: 40px;*/
+    margin-right: 14rem !important;
     /*height: 32px !important;*/
     min-width: 219px !important;
 }
 
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) .titlebar-spacer {
     display: none;
+    width: 0 !important;
 }
 
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #sidebar-close {
@@ -39,7 +40,7 @@
 
 /* URL bar */
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #urlbar-container {
-    min-width: 50px !important;
+    min-width: 100px !important;
 }
 
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #urlbar {
@@ -63,4 +64,14 @@
 #sidebar {
   min-width: 100px !important;
   max-width: none !important;
+}
+
+/* Indicator */
+
+:root:not([accessibilitymode]) .private-browsing-indicator, .accessibility-indicator {
+    margin-inline-start: 0 !important;
+}
+
+:root:not([privatebrowsingmode="temporary"]) .accessibility-indicator, .private-browsing-indicator {
+    margin-inline-end: 3px !important;
 }
