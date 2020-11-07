@@ -77,6 +77,5 @@
 }
 
 #main-window:not([tabsintitlebar="true"]) #sidebar-header {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    padding: 0 8px 0 8px !important;
 }
