@@ -75,3 +75,8 @@
 :root:not([privatebrowsingmode="temporary"]) .accessibility-indicator, .private-browsing-indicator {
     margin-inline-end: 3px !important;
 }
+
+#main-window:not([tabsintitlebar="true"]) #sidebar-header {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
